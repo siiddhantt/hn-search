@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import Search from './Components/Search';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState, useEffect } from 'react';
 
 function App() {
+  const [data, setData] = useState([]);
+  async function searchQueries(val) {
+    let response = await fetch(`http://hn.algolia.com/api/v1/search?query=${val}`);
+    let dataGot = await response.json();
+    setData(dataGot);
+    return dataGot;
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Navbar/>
+        <Routes>
+          {/* <Route path="/" element={<Landing_Page />} /> */}
+          <Route path="/" element={<Home/>} />
+          <Route path="search" element={<Search search={searchQueries}/>} />
+          {/* <Route path="login" element={<Login />} /> */}
+          {/* <Route path="signup" element={<Signup />} /> */}
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
