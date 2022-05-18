@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/47355538/169099213-afdb6e52-2a15-4ddb-
 
 ![Responsive](https://user-images.githubusercontent.com/47355538/169096300-349a2c51-d2a3-4296-8ffd-e1436ef14984.png)
 
-### Deployed site
+### Video
 
 https://drive.google.com/file/d/1d8DLUcps9H9wH-zIcuklAn0mUpfi0kXZ/view?usp=sharing
 
