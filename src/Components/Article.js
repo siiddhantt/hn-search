@@ -41,13 +41,13 @@ function Article() {
   return (
     <>
     {(commentList.length != 0) ? <div className='mx-auto'>
-      <div className="p-1 shadow-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl mx-2 my-2">
-        <a className="block p-6 bg-white sm:p-8 rounded-xl">
+      <div className="p-1 shadow-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-violet-400 my-2 rounded font-poppins">
+        <a className="block p-6 text-indigo-200 sm:p-8">
           <div className="mt-16 sm:pr-8">
-            <h5 className="text-xl font-bold text-gray-900">Title - {data.title}</h5>
-            <p className="mt-2 text-sm text-gray-500">
-              Points - {data.points}
-            </p>
+            <h5 className="text-3xl font-bold text-gray-900 rounded">Title : {data.title}</h5>
+            <h5 className="mt-2 text-lg text-slate-800 font-semibold">
+              Points : {data.points}
+            </h5>
           </div>
         </a>
       </div>

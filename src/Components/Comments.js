@@ -9,7 +9,7 @@ function Comments(props) {
   );
   return (
     <div className="text-gray-400 bg-gray-900 body-font mx-auto">
-      <h1 className="text-xs text-indigo-400 tracking-widest font-medium title-font mb-1 px-4">COMMENTS</h1>
+      <h1 className="text-xl text-center text-indigo-400 tracking-widest font-medium title-font mb-1 px-4 underline">COMMENTS</h1>
       {renderList}
     </div>
   )

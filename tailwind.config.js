@@ -7,7 +7,9 @@ module.exports = {
       animation: {
         wiggle: "wiggle 200ms ease-in-out"
       },
-    },
+    }, fontFamily:{
+      'poppins': ['Poppins', 'sans-serif'],
+      'changa' :['Changa', 'sans-serif']}
   },
   plugins: [],
 }

@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Search from './Components/Search';
 import Article from './Components/Article';
+import Footer from './Components/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from 'react';
 
@@ -17,14 +18,15 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Navbar/>
+        <Navbar />
         <Routes>
           {/* <Route path="/" element={<Landing_Page />} /> */}
-          <Route path="/" element={<Home/>} />
-          <Route path="search" element={<Search search={searchQueries}/>} />
-          <Route path="article" element={<Article/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="search" element={<Search search={searchQueries} />} />
+          <Route path="article" element={<Article />} />
           {/* <Route path="signup" element={<Signup />} /> */}
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
