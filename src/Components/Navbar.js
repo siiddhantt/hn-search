@@ -12,11 +12,11 @@ function Navbar(props) {
         navigate('/search', {state: {query : query}});
     }
     return (
-        <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-indigo-900 shadow-xl">
+        <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-indigo-900 shadow-xl">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
                 <a href="/" className="flex items-center">
                     <img src="./hack.png" className="mr-2 text-sm text-white height-40"/>
-                    <span className="mt-3 self-center text-xl font-semibold whitespace-nowrap dark:text-slate-200" >HN-Search</span>
+                    <span className="mt-3 self-center text-xl font-semibold whitespace-nowrap text-slate-200" >HN-Search</span>
                 </a>
                 <div className="flex md:order-2 gap-x-2">
                     <form className="relative mt-2" onSubmit={submit}>

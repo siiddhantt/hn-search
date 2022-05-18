@@ -9,13 +9,13 @@ export default function Footer() {
     }
     return (
         <div className='sticky top-[100vh]'>
-            <footer className="flex-row p-1 bg-white shadow md:flex md:items-center md:justify-center md:p-2 dark:bg-indigo-900 gap-1 shadow-xl" style={footerStyle}>
+            <footer className="flex-row p-1 bg-white shadow md:flex md:items-center md:justify-center md:p-2 bg-indigo-900 gap-1 shadow-xl" style={footerStyle}>
                 <a href='https://github.com/siiddhantt' className=''>
-                    <div href='https://github.com/siiddhantt' className="text-sm text-gray-500 sm:text-center dark:text-gray-200 hover:text-blue-200"><FaGithub />
+                    <div href='https://github.com/siiddhantt' className="text-sm text-gray-500 sm:text-center text-gray-200 hover:text-blue-200"><FaGithub />
                     </div>
                 </a>
                 <a href='https://github.com/siiddhantt' className=''>
-                    <span href='https://github.com/siiddhantt' className="text-sm text-gray-500 sm:text-center dark:text-gray-200 hover:text-blue-200">siiddhantt
+                    <span href='https://github.com/siiddhantt' className="text-sm text-gray-500 sm:text-center text-gray-200 hover:text-blue-200">siiddhantt
                     </span>
                 </a>
             </footer>
