@@ -1,8 +1,20 @@
 # HN-Search
 
+###Screenshots
+
+![2022-05-18_22-10](https://user-images.githubusercontent.com/47355538/169096534-cf3b0f8c-a168-4f5f-abc9-d52fd3737146.png)
+
+![2022-05-18_22-14](https://user-images.githubusercontent.com/47355538/169097298-bd675e97-6947-4c10-aa33-cdd968af8f6f.png)
+
+![2022-05-18_22-15](https://user-images.githubusercontent.com/47355538/169097490-f0787cdf-917d-444a-9d0b-7dbf919f8a9e.png)
+
+![Responsive](https://user-images.githubusercontent.com/47355538/169096300-349a2c51-d2a3-4296-8ffd-e1436ef14984.png)
+
+###Deployed site
+
 https://drive.google.com/file/d/1d8DLUcps9H9wH-zIcuklAn0mUpfi0kXZ/view?usp=sharing
 
-https://i.imgur.com/E2zzw8G.png
+
 
 ## Features
 
