@@ -10,7 +10,7 @@ import { useState, useEffect } from 'react';
 function App() {
   const [data, setData] = useState([]);
   async function searchQueries(val) {
-    let response = await fetch(`http://hn.algolia.com/api/v1/search?query=${val}`);
+    let response = await fetch(`https://hn.algolia.com/api/v1/search?query=${val}`);
     let dataGot = await response.json();
     setData(dataGot);
     return dataGot;
