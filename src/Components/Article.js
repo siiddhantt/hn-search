@@ -10,7 +10,7 @@ function Article() {
   const { state } = useLocation();
   const { articleID } = state;
   async function searchbyID(val) {
-    let response = await fetch(`http://hn.algolia.com/api/v1/items/${val}`);
+    let response = await fetch(`https://hn.algolia.com/api/v1/items/${val}`);
     let dataGot = await response.json();
     setData(dataGot);
     return dataGot;
