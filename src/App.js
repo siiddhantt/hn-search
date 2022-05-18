@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Search from './Components/Search';
+import Article from './Components/Article';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from 'react';
 
@@ -21,7 +22,7 @@ function App() {
           {/* <Route path="/" element={<Landing_Page />} /> */}
           <Route path="/" element={<Home/>} />
           <Route path="search" element={<Search search={searchQueries}/>} />
-          {/* <Route path="login" element={<Login />} /> */}
+          <Route path="article" element={<Article/>} />
           {/* <Route path="signup" element={<Signup />} /> */}
         </Routes>
       </BrowserRouter>
