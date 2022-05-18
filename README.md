@@ -1,6 +1,6 @@
 # HN-Search
 
-###Screenshots
+### Screenshots
 
 ![2022-05-18_22-10](https://user-images.githubusercontent.com/47355538/169096534-cf3b0f8c-a168-4f5f-abc9-d52fd3737146.png)
 
@@ -10,7 +10,7 @@
 
 ![Responsive](https://user-images.githubusercontent.com/47355538/169096300-349a2c51-d2a3-4296-8ffd-e1436ef14984.png)
 
-###Deployed site
+### Deployed site
 
 https://drive.google.com/file/d/1d8DLUcps9H9wH-zIcuklAn0mUpfi0kXZ/view?usp=sharing
 
