@@ -15,7 +15,6 @@ function Search(props) {
     useEffect(() => {
         disp();
     }, [query]);
-    console.log(dobj);
     return (
         <>
         {

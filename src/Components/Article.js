@@ -17,14 +17,11 @@ function Article() {
   }
 
   useEffect(() => {
-    searchbyID(articleID);
-    console.log(data);
+    searchbyID(articleID);  
   }, [articleID]);
 
   useEffect(() => {
-    console.log(data);
     flatten_data = flatten(data);
-    console.log(flatten_data);
     for (const [key, value] of Object.entries(flatten_data)) {
       if (key.search('text') != -1) {
         if (value == null) {
@@ -36,15 +33,14 @@ function Article() {
         setCommentlist(commentList);
       }
     }
-    console.log(commentList);
   }, [data]);
   return (
     <>
     {(commentList.length != 0) ? <div className='mx-auto'>
-      <div className="p-1 shadow-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-violet-400 my-2 rounded font-poppins">
+      <div className="p-1 shadow-xl bg-gradient-to-r from-indigo-700 via-purple-600 to-violet-400 my-2 rounded font-poppins">
         <a className="block p-6 text-indigo-200 sm:p-8">
           <div className="mt-16 sm:pr-8">
-            <h5 className="text-3xl font-bold text-gray-900 rounded">Title : {data.title}</h5>
+            <h5 className="text-3xl font-bold text-gray-900 rounded">{data.title}</h5>
             <h5 className="mt-2 text-lg text-slate-800 font-semibold">
               Points : {data.points}
             </h5>

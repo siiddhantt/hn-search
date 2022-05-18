@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 
 function Comments(props) {
   useEffect(() => {
-    console.log(props.list);
   }, [props.list]);
   let renderList = props.list.map((item) =>
     <div className='border border-gray-700 border-opacity-35 rounded-lg py-2 px-2 mx-2 text-slate-400'>{item}</div>
