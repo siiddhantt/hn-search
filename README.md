@@ -23,6 +23,7 @@ https://drive.google.com/file/d/1d8DLUcps9H9wH-zIcuklAn0mUpfi0kXZ/view?usp=shari
 
 - HN Search provides real-time full-text search for the HackerNews community site.
 - Fully responsive and works even in mobile devices.
+- Personalised landing page.
 - Progress bar implemented to show the ongoing API request.
 - Article page shows the title of the article, the points and all the comments.
 
